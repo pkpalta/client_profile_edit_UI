@@ -10,7 +10,6 @@ import { NotificationService } from 'src/app/services/notification/notification.
 })
 export class PublicLayoutComponent implements OnInit {
   public title = '';
-  // constructor
   constructor(
     private router: Router,
     //private navigationService: NavigationService,
