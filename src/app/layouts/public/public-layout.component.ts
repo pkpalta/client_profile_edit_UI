@@ -12,13 +12,11 @@ export class PublicLayoutComponent implements OnInit {
   public title = '';
   constructor(
     private router: Router,
-    //private navigationService: NavigationService,
+    
   ) {
-      // console.log(" this.navigationService.navigationState",  this.navigationService.navigationState)
-      // this.title = this.navigationService.navigationState.title;
+     
   }
-
-  // ngOnInit
+  
   public async ngOnInit() {
    
   }
