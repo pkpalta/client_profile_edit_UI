@@ -17,12 +17,17 @@ import { SharedModule } from './shared.module';
 import { PublicLayoutComponent } from './layouts/public/public-layout.component';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthInterceptor } from './util/auth-interceptor/auth-interceptor.util';
+import { ComponentNameComponent } from './layouts/bulk/component-name.component';
+import { HelloComponent } from './layouts/customField/hello.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     PublicLayoutComponent,
     PluralizePipe,
+    ComponentNameComponent,
+    HelloComponent
   ],
   imports: [
     AngularModule,
