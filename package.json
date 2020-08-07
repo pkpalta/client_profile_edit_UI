@@ -27,7 +27,7 @@
     "@ng-bootstrap/ng-bootstrap": "^6.1.0",
     "@types/socket.io-client": "^1.4.33",
     "bootstrap": "^4.5.0",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "leatherman-bootstrap": "^0.1.3",
     "rxjs": "~6.5.4",
     "shortid": "^2.2.15",
